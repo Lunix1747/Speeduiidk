@@ -1,4 +1,13 @@
--- Instances:
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -7,79 +16,93 @@ local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
 local Frame_2 = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
 
---Properties:
+-- Properties
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
 Frame.BorderSizePixel = 7
 Frame.Position = UDim2.new(0.40346536, 0, 0.338592231, 0)
-Frame.Size = UDim2.new(0, 421, 0, 266)
+Frame.Size = UDim2.new(0, 421, 0, 248)
 
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 5
 TextLabel.Size = UDim2.new(0, 421, 0, 23)
 TextLabel.Font = Enum.Font.Gotham
 TextLabel.Text = "Lim0's Speed UI"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
+TextLabel.TextSize = 14
 TextLabel.TextWrapped = true
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
 TextButton.BorderSizePixel = 5
-TextButton.Position = UDim2.new(0.0403800458, 0, 0.172932327, 0)
+TextButton.Position = UDim2.new(0.0403800458, 0, 0.195477024, 0)
 TextButton.Size = UDim2.new(0, 387, 0, 50)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "Normal Speed"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextColor3 = Color3.new(0, 0, 0)
 TextButton.TextScaled = true
-TextButton.TextSize = 14.000
+TextButton.TextSize = 14
 TextButton.TextWrapped = true
 
 TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
 TextButton_2.BorderSizePixel = 5
-TextButton_2.Position = UDim2.new(0.0403800458, 0, 0.443609029, 0)
+TextButton_2.Position = UDim2.new(0.0403800458, 0, 0.4604716, 0)
 TextButton_2.Size = UDim2.new(0, 387, 0, 50)
 TextButton_2.Font = Enum.Font.Unknown
 TextButton_2.Text = "Fast Speed"
-TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextColor3 = Color3.new(0, 0, 0)
 TextButton_2.TextScaled = true
-TextButton_2.TextSize = 14.000
+TextButton_2.TextSize = 14
 TextButton_2.TextWrapped = true
 
 TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
 TextButton_3.BorderSizePixel = 5
-TextButton_3.Position = UDim2.new(0.0403800458, 0, 0.706766903, 0)
+TextButton_3.Position = UDim2.new(0.0403800458, 0, 0.724333704, 0)
 TextButton_3.Size = UDim2.new(0, 387, 0, 50)
 TextButton_3.Font = Enum.Font.Unknown
 TextButton_3.Text = "Very Fast Speed"
-TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextColor3 = Color3.new(0, 0, 0)
 TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
+TextButton_3.TextSize = 14
 TextButton_3.TextWrapped = true
 
 Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_2.BackgroundTransparency = 1.000
-Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_2.BackgroundTransparency = 1
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
 Frame_2.BorderSizePixel = 0
 Frame_2.Size = UDim2.new(0, 421, 0, 23)
 
--- Scripts:
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.new(0.207843, 0.207843, 0.207843)
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderSizePixel = 7
+TextButton_4.Position = UDim2.new(0, 0, 1.03481758, 0)
+TextButton_4.Size = UDim2.new(0, 421, 0, 50)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "Kill Game"
+TextButton_4.TextColor3 = Color3.new(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14
+TextButton_4.TextWrapped = true
 
-local function DBRZ_fake_script() -- TextButton.LocalScript 
+-- Scripts
+
+local function OBVV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local player = game.Players.LocalPlayer
@@ -91,8 +114,8 @@ local function DBRZ_fake_script() -- TextButton.LocalScript
 		h.WalkSpeed = 16
 	end)
 end
-coroutine.wrap(DBRZ_fake_script)()
-local function PRHV_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(OBVV_fake_script)()
+local function RDMMCN_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local player = game.Players.LocalPlayer
@@ -104,8 +127,8 @@ local function PRHV_fake_script() -- TextButton_2.LocalScript
 		h.WalkSpeed = 100
 	end)
 end
-coroutine.wrap(PRHV_fake_script)()
-local function AFXOCP_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(RDMMCN_fake_script)()
+local function QCCSV_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local player = game.Players.LocalPlayer
@@ -117,8 +140,8 @@ local function AFXOCP_fake_script() -- TextButton_3.LocalScript
 		h.WalkSpeed = 500
 	end)
 end
-coroutine.wrap(AFXOCP_fake_script)()
-local function BMJEXLS_fake_script() -- Frame_2.Dragify 
+coroutine.wrap(QCCSV_fake_script)()
+local function VIHVKF_fake_script() -- Frame_2.Dragify 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -161,8 +184,8 @@ local function BMJEXLS_fake_script() -- Frame_2.Dragify
 		end
 	end)
 end
-coroutine.wrap(BMJEXLS_fake_script)()
-local function GSTYLV_fake_script() -- Frame.Dragify 
+coroutine.wrap(VIHVKF_fake_script)()
+local function NWWTZ_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -205,4 +228,17 @@ local function GSTYLV_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(GSTYLV_fake_script)()
+coroutine.wrap(NWWTZ_fake_script)()
+local function RTNJOKC_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local player = game.Players.LocalPlayer
+	local char = player.Character or player.CharacterAdded:Wait()
+	local h = char:WaitForChild("Humanoid")
+	local b = script.Parent
+	
+	b.MouseButton1Click:Connect(function()
+		player:Kick("bye")
+	end)
+end
+coroutine.wrap(RTNJOKC_fake_script)()
